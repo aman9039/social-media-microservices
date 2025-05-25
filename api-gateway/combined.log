@@ -1,0 +1,15 @@
+{"level":"info","message":"API Gateway is running 3000","service":"api-gateway","timestamp":"2025-05-24T08:00:57.608Z"}
+{"level":"info","message":"Identity service is running http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-24T08:00:57.615Z"}
+{"level":"info","message":"Redis url $REDIS_URL}","service":"api-gateway","timestamp":"2025-05-24T08:00:57.616Z"}
+{"level":"info","message":"API Gateway is running 3000","service":"api-gateway","timestamp":"2025-05-24T08:16:39.365Z"}
+{"level":"info","message":"Identity service is running http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-24T08:16:39.373Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-24T08:16:39.374Z"}
+{"level":"info","message":"API Gateway is running 3000","service":"api-gateway","timestamp":"2025-05-24T08:16:47.828Z"}
+{"level":"info","message":"Identity service is running http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-24T08:16:47.835Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-24T08:16:47.836Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-24T08:16:49.811Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-24T08:16:49.812Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-05-24T08:16:50.250Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-24T08:19:18.207Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-24T08:19:18.209Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-05-24T08:19:18.330Z"}
