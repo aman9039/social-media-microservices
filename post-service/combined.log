@@ -1,0 +1,91 @@
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T08:23:54.169Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T08:24:00.112Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T08:27:37.903Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T08:27:39.770Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T10:50:30.830Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T10:50:33.857Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T10:55:57.336Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T10:55:58.970Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T10:56:03.658Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-28T11:01:39.139Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-05-28T11:01:39.140Z"}
+{"level":"error","message":"Error create post : Post is not defined","service":"post-service","stack":"ReferenceError: Post is not defined\n    at createPost (C:\\Users\\91903\\social-media-microservices\\post-service\\src\\controller\\post-controller.js:6:30)\n    at Layer.handleRequest (C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\express-rate-limit\\dist\\index.cjs:822:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\express-rate-limit\\dist\\index.cjs:704:5","timestamp":"2025-05-28T11:01:39.149Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:05:30.407Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:05:32.173Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:05:39.766Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:05:52.481Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:07:24.642Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:07:31.679Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:08:25.016Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:08:32.301Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:09:30.343Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:09:32.583Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:09:41.323Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:10.812Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:18.153Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:20.400Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:30.428Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:10:42.149Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:47.834Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:50.289Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:51.911Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:53.409Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:55.994Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:10:59.431Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:01.098Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:03.245Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:05.295Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:07.429Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:10.981Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:12.185Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:15.869Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:17.968Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:21.079Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:22.875Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:25.472Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:11:31.241Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:44.540Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:11:54.804Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:02.555Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:06.039Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:12:16.871Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:23.943Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:25.889Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:28.119Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:30.379Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:32.415Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:37.959Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:12:40.639Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:12:46.990Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:15:20.225Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:15:27.161Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:15:34.611Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:15:50.721Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:15:57.015Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:15:59.241Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:16:01.145Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:16:13.895Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:16:15.709Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:16:20.590Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-28T11:17:16.366Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-05-28T11:17:16.370Z"}
+{"level":"info","message":"Create post endpoint hit...","service":"post-service","timestamp":"2025-05-28T11:17:16.380Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"Validate error","service":"post-service","timestamp":"2025-05-28T11:17:16.405Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-28T11:18:06.486Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-05-28T11:18:06.488Z"}
+{"level":"info","message":"Create post endpoint hit...","service":"post-service","timestamp":"2025-05-28T11:18:06.494Z"}
+{"level":"error","message":"Error create post : Post is not defined","service":"post-service","stack":"ReferenceError: Post is not defined\n    at createPost (C:\\Users\\91903\\social-media-microservices\\post-service\\src\\controller\\post-controller.js:19:30)\n    at Layer.handleRequest (C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\express-rate-limit\\dist\\index.cjs:822:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\91903\\social-media-microservices\\post-service\\node_modules\\express-rate-limit\\dist\\index.cjs:704:5","timestamp":"2025-05-28T11:18:06.499Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:19:07.901Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:19:16.861Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:19:28.942Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:19:37.764Z"}
+{"level":"info","message":"Identity service runing on port 3002","service":"post-service","timestamp":"2025-05-28T11:19:40.366Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-28T11:19:48.683Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-05-28T11:19:48.685Z"}
+{"level":"info","message":"Create post endpoint hit...","service":"post-service","timestamp":"2025-05-28T11:19:48.691Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-05-28T11:19:55.075Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"Comments":true,"_id":true,"likes":true},"modify":{"content":true,"createdAt":true,"media":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"media":{"Comments":[],"__v":0,"_id":"6836f15413adbeddc7a6be03","content":"hello postman","createdAt":"2025-05-28T11:19:48.713Z","likes":[],"media":[],"updatedAt":"2025-05-28T11:19:48.713Z","user":"683422c8d20282be609c5d08"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"Comments":[],"__v":0,"_id":"6836f15413adbeddc7a6be03","content":"hello postman","createdAt":"2025-05-28T11:19:48.713Z","likes":[],"media":[],"updatedAt":"2025-05-28T11:19:48.713Z","user":"683422c8d20282be609c5d08"},"level":"info","message":"Post created :","service":"post-service","timestamp":"2025-05-28T11:19:55.895Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-28T11:21:05.169Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-05-28T11:21:05.170Z"}
+{"level":"info","message":"Create post endpoint hit...","service":"post-service","timestamp":"2025-05-28T11:21:05.175Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"Comments":true,"_id":true,"likes":true},"modify":{"content":true,"createdAt":true,"media":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"media":{"Comments":[],"__v":0,"_id":"6836f1a113adbeddc7a6be07","content":"hello postman","createdAt":"2025-05-28T11:21:05.183Z","likes":[],"media":[],"updatedAt":"2025-05-28T11:21:05.183Z","user":"683422c8d20282be609c5d08"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"Comments":[],"__v":0,"_id":"6836f1a113adbeddc7a6be07","content":"hello postman","createdAt":"2025-05-28T11:21:05.183Z","likes":[],"media":[],"updatedAt":"2025-05-28T11:21:05.183Z","user":"683422c8d20282be609c5d08"},"level":"info","message":"Post created :","service":"post-service","timestamp":"2025-05-28T11:21:05.962Z"}
