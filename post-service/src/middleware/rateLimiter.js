@@ -9,7 +9,7 @@ const redisClient = new Redis(process.env.REDIS_URL);
 // createPost: Allow 10 requests every 5 minutes
 const createPostLimiter = rateLimit({
   windowMs: 5 * 60 * 1000, // 5 minutes
-  max: 10,
+  max: 20,
   standardHeaders: true,
   legacyHeaders: false,
   handler: (req, res) => {
@@ -23,8 +23,8 @@ const createPostLimiter = rateLimit({
 
 // getPost: Allow 5 requests every 1 minute
 const getPostLimiter = rateLimit({
-  windowMs: 60 * 1000, // 1 minute
-  max: 5,
+  windowMs:5 * 60 * 1000, // 1 minute
+  max: 20,
   standardHeaders: true,
   legacyHeaders: false,
   handler: (req, res) => {
@@ -38,8 +38,8 @@ const getPostLimiter = rateLimit({
 
 // getAllPosts: Allow 10 requests per minute
 const getAllPostsLimiter = rateLimit({
-  windowMs: 60 * 1000,
-  max: 10,
+  windowMs: 1 * 60 * 1000,
+  max: 20,
   standardHeaders: true,
   legacyHeaders: false,
   handler: (req, res) => {
