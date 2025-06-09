@@ -8,7 +8,7 @@ const { RedisStore } = require("rate-limit-redis");
 const logger = require("./utils/logger");
 const proxy = require("express-http-proxy");
 const { error } = require("winston");
-const  errorHandler  = require("./middleware/errorHandle");
+const errorHandler = require("./middleware/errorHandle");
 const { validateToken } = require("./middleware/authmiddleware");
 
 const app = express();
@@ -40,7 +40,7 @@ app.use(rateLimitOptions);
 
 app.use((req, res, next) => {
   logger.info(`Received ${req.method} request to ${req.url}`);
-logger.info(`Request body: ${JSON.stringify(req.body)}`);
+  logger.info(`Request body: ${JSON.stringify(req.body)}`);
 
   next();
 });
@@ -79,24 +79,49 @@ app.use(
 );
 
 // setting up proxy for our post service
-app.use('/v1/posts',validateToken,proxy(process.env.POST_SERVICE_URL,
-  {
+app.use(
+  "/v1/posts",
+  validateToken,
+  proxy(process.env.POST_SERVICE_URL, {
     ...proxyOptions,
-    proxyReqOptDecorator : (proxyReqOpts,srcReq) => {
-    proxyReqOpts.headers['Content-Type'] = 'application/json';
-    proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
 
-    return proxyReqOpts
+      return proxyReqOpts;
     },
-     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(
         `Response received from Post service: ${proxyRes.statusCode}`
       );
       return proxyResData;
     },
-  }
-))
+  })
+);
 
+// setting up proxy for our media service
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      if (!srcReq.headers["content-type"]?.startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+      return proxyReqOpts;
+    },
+
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from media service: ${proxyRes.statusCode}`
+      );
+      return proxyResData;
+    },
+    parseReqBody: false,
+  })
+);
 
 app.use(errorHandler);
 
@@ -105,8 +130,7 @@ app.listen(PORT, () => {
   logger.info(
     `Identity service is running ${process.env.IDENTITY_SERVICE_URL} `
   );
-  logger.info(
-    `Post service is running ${process.env.POST_SERVICE_URL} `
-  );
+  logger.info(`Post service is running ${process.env.POST_SERVICE_URL} `);
+  logger.info(`Media service is running ${process.env.MEDIA_SERVICE_URL} `);
   logger.info(`Redis url ${process.env.REDIS_URL}`);
 });
