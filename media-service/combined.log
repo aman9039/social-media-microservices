@@ -1,0 +1,132 @@
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-07T08:50:36.644Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-07T08:50:37.846Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-07T08:51:19.773Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-07T08:51:20.766Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-07T08:51:25.660Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-07T08:51:26.727Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-07T08:51:29.577Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-07T08:51:30.599Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-07T08:51:40.962Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-07T08:51:42.738Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-07T08:51:52.409Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-07T08:51:53.407Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T10:47:41.419Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T10:47:45.133Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:04:29.205Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:04:30.923Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:05:06.240Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:05:10.147Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:14:43.379Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:14:44.339Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:14:46.515Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:14:47.975Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:15:05.475Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:15:06.192Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:15:08.428Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:15:10.164Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:16:16.721Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:16:16.722Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:16:16.729Z"}
+{"level":"info","message":"Received GET request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:16:26.796Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:16:26.797Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:16:43.310Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:16:45.467Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:16:47.512Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:16:47.512Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:16:47.518Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:17:24.921Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:17:25.401Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:17:26.351Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:17:26.352Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:17:26.358Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:17:28.177Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:17:28.177Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:17:28.180Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:17:57.669Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:17:57.671Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:17:57.675Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:18:00.620Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:18:00.622Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:18:00.625Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:18:02.024Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:18:02.025Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:18:02.030Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:18:17.276Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:18:18.147Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:18:20.993Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:18:20.994Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:18:21.000Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:18:40.952Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:18:40.955Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:18:40.974Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:19:22.074Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:19:23.440Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:19:49.157Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:19:49.160Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:19:49.177Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:20:27.892Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:20:29.103Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:20:29.104Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:20:29.109Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:20:30.359Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:20:30.590Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:20:30.591Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:20:30.594Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:20:52.067Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:20:53.522Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:20:53.524Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:20:53.530Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:20:54.328Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:20:55.739Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:20:55.740Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:20:55.743Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:20:58.747Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:20:58.749Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:20:58.754Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:20:59.690Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:20:59.691Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:20:59.695Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:21:00.496Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:21:00.497Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:21:00.502Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:21:02.181Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:21:02.182Z"}
+{"level":"warn","message":"uploadMedia limit exceeded for IP: ::1","service":"media-service","timestamp":"2025-06-08T11:21:02.187Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:21:11.188Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:21:12.715Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:21:12.717Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-06-08T11:21:12.730Z"}
+{"level":"info","message":"File details: name=login_page_img.png, type=image/png","service":"media-service","timestamp":"2025-06-08T11:21:12.731Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-08T11:21:12.732Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:21:12.745Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id : - nxkeulggec2qbe3zs6is","service":"media-service","timestamp":"2025-06-08T11:21:15.825Z"}
+{"level":"error","message":"Error Media upload Media is not defined","service":"media-service","stack":"ReferenceError: Media is not defined\n    at uploadMedia (C:\\Users\\91903\\social-media-microservices\\media-service\\src\\controller\\media-controller.js:26:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-08T11:21:15.827Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:22:08.811Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:22:10.672Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:22:13.974Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:22:13.975Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-06-08T11:22:13.990Z"}
+{"level":"info","message":"File details: name=login_page_img.png, type=image/png","service":"media-service","timestamp":"2025-06-08T11:22:13.991Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-08T11:22:13.992Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id : - cqx7radsvpqs2dmq8ios","service":"media-service","timestamp":"2025-06-08T11:22:17.858Z"}
+{"level":"error","message":"Error Media upload Media is not defined","service":"media-service","stack":"ReferenceError: Media is not defined\n    at uploadMedia (C:\\Users\\91903\\social-media-microservices\\media-service\\src\\controller\\media-controller.js:26:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-08T11:22:17.860Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T11:23:37.888Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T11:23:38.295Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T11:23:41.739Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T11:23:41.740Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-06-08T11:23:41.759Z"}
+{"level":"info","message":"File details: name=login_page_img.png, type=image/png","service":"media-service","timestamp":"2025-06-08T11:23:41.760Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-08T11:23:41.762Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id : - ej15hhr1i2jlgulaxojj","service":"media-service","timestamp":"2025-06-08T11:23:45.718Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T12:56:46.264Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T12:56:47.238Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-08T12:58:16.351Z"}
+{"level":"info","message":"Request body,undefined","service":"media-service","timestamp":"2025-06-08T12:58:16.352Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-06-08T12:58:16.365Z"}
+{"level":"info","message":"File details: name=login_page_img.png, type=image/png","service":"media-service","timestamp":"2025-06-08T12:58:16.366Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-08T12:58:16.367Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id : - l4yggd2gr0cp4voiw0ls","service":"media-service","timestamp":"2025-06-08T12:58:20.706Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T15:32:05.160Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T15:32:06.030Z"}
+{"level":"info","message":"Media service runing on port 3003","service":"media-service","timestamp":"2025-06-08T17:52:40.050Z"}
+{"level":"info","message":"mongoDb is connected...","service":"media-service","timestamp":"2025-06-08T17:52:42.433Z"}
