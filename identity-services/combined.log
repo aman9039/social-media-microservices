@@ -471,3 +471,35 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-services","timestamp":"2025-06-05T03:29:32.374Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-06-05T03:29:32.377Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-services","timestamp":"2025-06-05T03:29:32.382Z"}
+{"level":"info","message":"Identity service runing on port 3001","service":"identity-service","timestamp":"2025-06-06T07:32:09.837Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-06-06T07:32:13.688Z"}
+{"level":"info","message":"Identity service runing on port 3001","service":"identity-service","timestamp":"2025-06-07T08:34:43.572Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-06-07T08:34:44.962Z"}
+{"level":"info","message":"Identity service runing on port 3001","service":"identity-service","timestamp":"2025-06-08T10:46:40.562Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-06-08T10:46:45.138Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-08T10:47:48.881Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-08T10:47:48.882Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-08T10:47:48.888Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-08T11:06:24.532Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-08T11:06:24.540Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-08T11:06:24.550Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-08T11:17:41.139Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-08T11:17:41.142Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-08T11:17:41.146Z"}
+{"level":"info","message":"Identity service runing on port 3001","service":"identity-service","timestamp":"2025-06-08T11:19:18.784Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-06-08T11:19:21.020Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-08T11:19:32.076Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-08T11:19:32.078Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-08T11:19:32.087Z"}
+{"level":"info","message":"Identity service runing on port 3001","service":"identity-service","timestamp":"2025-06-08T12:56:36.388Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-06-08T12:56:37.880Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-08T12:57:23.614Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-08T12:57:23.615Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-08T12:57:23.622Z"}
+{"level":"info","message":"Identity service runing on port 3001","service":"identity-service","timestamp":"2025-06-08T15:31:52.096Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-06-08T15:31:56.144Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-08T15:32:55.375Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-08T15:32:55.377Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-08T15:32:55.389Z"}
+{"level":"info","message":"Identity service runing on port 3001","service":"identity-service","timestamp":"2025-06-08T17:52:15.828Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-06-08T17:52:19.187Z"}
