@@ -125,32 +125,25 @@ const getPost = async (req, res) => {
 };
 const deletePost = async (req, res) => {
   try {
-   
     const post = await Post.findOneAndDelete({
-      _id : req.params.id,
-      user : req.user.userId
+      _id: req.params.id,
+      user: req.user.userId,
     });
-  
-   if (!post) {
+
+    if (!post) {
       res.status(404).json({
         success: false,
-        message: 'Post not found',
+        message: "Post not found",
       });
-    };
+    }
 
-    await invalidatePostCache(req,req.params.id);
+    await invalidatePostCache(req, req.params.id);
     res.status(200).json({
-      success : true,
-      message : 'Post deleted successfully',
+      success: true,
+      message: "Post deleted successfully",
     });
 
-
-
-
-
-
-
-    // const postId = req.params.id;
+    const postId = req.params.id;
 
     // // check if post exist
     // const post = await Post.findById(postId);
@@ -170,8 +163,8 @@ const deletePost = async (req, res) => {
 
     logger.info(`Post Deleted successful:${postId}`);
     res.status(200).json({
-      success : true,
-      message : "Post Deleted successful"
+      success: true,
+      message: "Post Deleted successful",
     });
   } catch (error) {
     logger.error("Error delete post :", error);
