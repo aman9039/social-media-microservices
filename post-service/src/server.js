@@ -8,6 +8,7 @@ const cors = require("cors");
 const postRoutes = require("./routes/post-routes");
 const errorHandler = require("./middleware/errorHandler");
 const logger = require("./utils/logger");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const PORT = process.env.PORT || 3002;
 
@@ -41,9 +42,19 @@ app.use(
 // error handler
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  logger.info(`Identity service runing on port ${PORT}`);
-});
+async function startServer() {
+  try {
+    await connectToRabbitMQ();
+    app.listen(PORT, () => {
+      logger.info(`Post service runing on port ${PORT}`);
+    });
+  } catch (error) {
+    logger.error('Failed to connect to server',error);
+    process.exit(1);
+  }
+};
+
+startServer();
 
 // unhandled promise rejection
 

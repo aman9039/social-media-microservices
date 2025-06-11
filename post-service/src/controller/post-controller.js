@@ -1,6 +1,7 @@
 const logger = require("../utils/logger");
 const { validateCreatePost } = require("../utils/validation");
 const Post = require("../models/post");
+const { publishEvent } = require("../utils/rabbitmq");
 
 async function invalidatePostCache(req, input) {
   const cachedKey = `post:${input}`;
@@ -137,26 +138,16 @@ const deletePost = async (req, res) => {
       });
     }
 
-    await invalidatePostCache(req, req.params.id);
-    res.status(200).json({
-      success: true,
-      message: "Post deleted successfully",
+    // publish post delete method ->
+    await publishEvent("post.deleted", {
+      postId: post._id.toString(),
+      userId: req.user.userId,
+      media: post.media,
     });
 
+    await invalidatePostCache(req, req.params.id);
+
     const postId = req.params.id;
-
-    // // check if post exist
-    // const post = await Post.findById(postId);
-
-    // if (!post) {
-    //   res.status(404).json({
-    //     success: false,
-    //     message: 'Post not found',
-    //   });
-    // }
-
-    // // Delete the post
-    // await Post.findByIdAndDelete(postId);
 
     // Invalidate Redis cache
     await invalidatePostCache(req);
