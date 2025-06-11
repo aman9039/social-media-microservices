@@ -8,6 +8,8 @@ const logger = require("./utils/logger");
 const connectDb = require("./Db/db");
 const Redis = require("ioredis");
 const { uploadMediaEndPoint } = require("./middleware/rateLimit");
+const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq");
+const { handlerPostDeleted } = require("./eventHandler/media-event-handler");
 
 const app = express();
 const PORT = process.env.PORT || 3003;
@@ -26,18 +28,31 @@ app.use((req, res, next) => {
   next();
 });
 
-// implement Ip based rate limiting for sensitive endpoint 
+// implement Ip based rate limiting for sensitive endpoint
 // app.use('/api/media/upload',uploadMediaEndPoint);
 
-app.use('/api/media',mediaRoutes);
+app.use("/api/media", mediaRoutes);
 app.use(errorHandler);
 
-app.listen(PORT,() => {
-  logger.info(`Media service runing on port ${PORT}`);
-});
+async function startServer() {
+  try {
+    await connectToRabbitMQ();
 
+    // consume all the events
+    await consumeEvent("post.delete", handlerPostDeleted);
+
+    app.listen(PORT, () => {
+      logger.info(`Media service runing on port ${PORT}`);
+    });
+  } catch (error) {
+    logger.error("Failed to connect to server", error);
+    process.exit(1);
+  }
+}
+
+startServer();
 // unhandled promise rejection
 
-process.on('unhandledRejection',(reason,promise) => {
-  logger.error("Unhandled Rejection at", promise, "reason:",reason);
+process.on("unhandledRejection", (reason, promise) => {
+  logger.error("Unhandled Rejection at", promise, "reason:", reason);
 });
