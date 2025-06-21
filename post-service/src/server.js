@@ -25,7 +25,8 @@ app.use(express.json());
 
 app.use((req, res, next) => {
   logger.info(`Received ${req.method} request to ${req.url}`);
-  logger.info(`Request body , ${req.body}`);
+  logger.info(`Request body: ${JSON.stringify(req.body)}`);
+
   next();
 });
 
@@ -49,10 +50,10 @@ async function startServer() {
       logger.info(`Post service runing on port ${PORT}`);
     });
   } catch (error) {
-    logger.error('Failed to connect to server',error);
+    logger.error("Failed to connect to server", error);
     process.exit(1);
   }
-};
+}
 
 startServer();
 

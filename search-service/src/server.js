@@ -27,10 +27,21 @@ app.use(errorHandler);
 
 app.use((req, res, next) => {
   logger.info(`Received ${req.method} request to ${req.url}`);
-  logger.info(`Request body, ${req.body}`);
+ logger.info(`Request body: ${JSON.stringify(req.body)}`);
+ next();
 });
 
-// implement Ip based rate limiting for sensitive endpoint
+// routes -> pass redisclient to routes
+app.use(
+  "/api/search",
+  (req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+  },
+  searchRoutes
+);
+
+
 
 app.use('/api/search',searchRoutes);
 

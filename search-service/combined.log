@@ -187,3 +187,282 @@
 {"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-20T08:08:25.591Z"}
 {"level":"info","message":"Received GET request to /api/search/posts?query=second","service":"post-service","timestamp":"2025-06-20T08:08:59.490Z"}
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-06-20T08:08:59.492Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:13:36.376Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:13:36.397Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:13:36.412Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:13:36.418Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:13:37.045Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T03:17:37.827Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-06-21T03:17:37.829Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:18:31.688Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:18:31.707Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:18:31.726Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:18:31.729Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:18:31.973Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:18:44.837Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:18:44.853Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:18:44.863Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:18:44.868Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:18:45.135Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:18:49.229Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:18:49.251Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:18:49.283Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:18:49.289Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:18:51.085Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:18:51.105Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:18:51.118Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:18:51.123Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:18:51.341Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:18:52.736Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:18:52.751Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:18:52.769Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:18:52.775Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:18:52.995Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:18:57.937Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:18:57.955Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:18:57.969Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:18:57.973Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:18:58.209Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:18:59.888Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:18:59.903Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:18:59.916Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:18:59.921Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:19:00.179Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:19:03.635Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:19:03.651Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:19:03.672Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:19:03.676Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:19:03.907Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:19:07.184Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:19:07.213Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:19:07.228Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:19:07.233Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:19:07.479Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:20:34.785Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:20:34.799Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:20:34.812Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:20:34.817Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:20:36.226Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:21:01.295Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:21:01.326Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:21:01.360Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:21:01.370Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:21:01.573Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:21:04.283Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:21:04.295Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:21:04.310Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:21:04.316Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:21:04.926Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:21:06.098Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:21:06.116Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:21:06.129Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:21:06.135Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:21:06.398Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:21:21.221Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:21:21.237Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:21:21.290Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:21:21.296Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:21:21.513Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:21:24.248Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:21:24.262Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:21:24.286Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:21:24.290Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:21:24.977Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T03:21:28.591Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-06-21T03:21:28.592Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T03:21:53.863Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T03:21:53.973Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T03:21:53.984Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T03:21:53.989Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T03:21:55.914Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:37:06.559Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:37:06.585Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:37:06.605Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:37:06.612Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:37:07.465Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:38:19.395Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-06-21T07:38:19.397Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:41:40.455Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-06-21T07:41:40.456Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:42:17.047Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:42:17.070Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:42:17.082Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:42:17.088Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:42:17.354Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:42:24.613Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-06-21T07:42:24.614Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:44:06.738Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:44:06.810Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:44:06.885Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:44:06.895Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:44:07.088Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:44:08.095Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-06-21T07:44:08.097Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:44:28.965Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:44:28.986Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:44:29.060Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:44:29.067Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:44:29.269Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:46:44.986Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-06-21T07:46:44.987Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:49:07.568Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:49:07.579Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:49:07.587Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:49:07.595Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:49:07.840Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:49:08.874Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:49:08.888Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:49:08.900Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:49:08.903Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:49:09.155Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:49:12.668Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-06-21T07:49:12.669Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:51:13.624Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:51:13.640Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:51:13.653Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:51:13.658Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:51:13.917Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:51:15.586Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:51:15.603Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:51:15.615Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:51:15.620Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:51:15.856Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:51:19.515Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:51:19.536Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:51:19.547Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:51:19.551Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:51:19.814Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:51:49.371Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-06-21T07:51:49.372Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-06-21T07:51:49.375Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"post-service","timestamp":"2025-06-21T07:51:49.375Z"}
+{"level":"info","message":"Query received: {\"query\":\"first\"}","service":"post-service","timestamp":"2025-06-21T07:51:49.377Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:52:26.082Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:52:26.098Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:52:26.106Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:52:26.110Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:52:26.341Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=second","service":"post-service","timestamp":"2025-06-21T07:52:39.591Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-06-21T07:52:39.592Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-06-21T07:52:39.595Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:54:42.810Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:54:42.830Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:54:42.847Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:54:42.853Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:54:43.112Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:54:44.253Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:54:44.265Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:54:44.275Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:54:44.279Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:54:44.531Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:54:58.080Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:54:58.091Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:54:58.107Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:54:58.113Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:54:58.340Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:55:04.041Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:55:04.055Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:55:04.087Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:55:04.091Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:55:04.301Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:55:08.198Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:55:08.209Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:55:08.222Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:55:08.227Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:55:08.466Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:01.622Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:01.634Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:01.643Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:01.647Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:58:01.901Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:03.114Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:03.128Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:03.137Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:03.140Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:58:03.420Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:17.978Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:17.992Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:18.004Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:18.010Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:58:18.234Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:23.770Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:23.782Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:23.791Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:23.796Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:58:24.045Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:26.011Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:26.032Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:26.046Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:26.052Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:58:26.271Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:38.831Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:38.843Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:38.855Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:38.859Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:39.966Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:39.979Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:39.987Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:39.992Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:58:40.226Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:50.651Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:50.666Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:50.729Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:50.735Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T07:58:51.810Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T07:58:51.822Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T07:58:51.833Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T07:58:51.837Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T07:58:52.089Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:00:05.605Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:00:05.622Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:00:05.632Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:00:05.637Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:00:05.885Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:00:17.443Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:00:17.456Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:00:17.469Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:00:17.475Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:00:17.794Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:03:44.229Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:03:44.242Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:03:44.250Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:03:44.255Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:03:44.520Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:03:57.745Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:03:57.758Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:03:57.767Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:03:57.772Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:03:58.017Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:04:07.499Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:04:07.512Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:04:07.521Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:04:07.526Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:04:07.775Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:06:13.499Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:06:13.552Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:06:13.989Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:06:14.651Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:06:14.656Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:06:22.069Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:06:22.081Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:06:22.088Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:06:22.092Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:06:22.345Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:10:41.107Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:10:41.124Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:10:41.143Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:10:41.148Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:10:41.389Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-06-21T08:11:40.956Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-06-21T08:11:40.967Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-06-21T08:11:40.984Z"}
+{"level":"info","message":"Search service runing on port 3004","service":"post-service","timestamp":"2025-06-21T08:11:40.987Z"}
+{"level":"info","message":"mongoDb is connected...","service":"post-service","timestamp":"2025-06-21T08:11:41.306Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=second","service":"post-service","timestamp":"2025-06-21T08:11:47.912Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-06-21T08:11:47.913Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-06-21T08:11:47.919Z"}
+{"level":"info","message":"Connected to rabbit mq","services":"post-service","timestamp":"2025-06-21T08:41:21.796Z"}
+{"level":"info","message":"Subscribed to event: post.created","services":"post-service","timestamp":"2025-06-21T08:41:21.806Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","services":"post-service","timestamp":"2025-06-21T08:41:21.817Z"}
+{"level":"info","message":"Search service runing on port 3004","services":"post-service","timestamp":"2025-06-21T08:41:21.821Z"}
+{"level":"info","message":"mongoDb is connected...","services":"post-service","timestamp":"2025-06-21T08:41:22.060Z"}
